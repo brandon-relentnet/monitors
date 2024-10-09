@@ -1,0 +1,183 @@
+@import "./variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#root {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+.button-core {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  color: var(--text);
+  font-size: 2em;
+  transition: all var(--transition-default); 
+  margin: .5rem;
+}
+.button-core:hover {
+  transform: scale(1.1);
+}
+.button-core:active {
+  transform: scale(1.4);
+}
+
+body {
+  background-color: var(--crust);
+  transition: all var(--transition-default) ease;
+  color: var(--text);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 4rem;
+  max-width: 600px;
+  margin: 3rem auto; /* Center align the grid */
+}
+.filters {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto; /* Center align the grid */
+}
+
+/* Responsive layout: For smaller screens, stack the filters vertically */
+@media (max-width: 768px) {
+  .filters {
+    grid-template-columns: 1fr; /* Switch to single column on small screens */
+  }
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  height: 8px;
+  margin: .9rem 0;
+  outline: none;
+  background-color: var(--surface0);
+  border-radius: var(--border-radius);
+  background-color: var(--surface0);
+  transition: all var(--transition-default) ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default thumb styles */
+  appearance: none;
+  width: 20px; /* Thumb width */
+  height: 20px; /* Thumb height */
+  background: var(--pink); /* Thumb color */
+  border-radius: 50%; /* Make the thumb circular */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: all var(--transition-default) ease; /* Smooth transitions */
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.1); /* Scale the thumb on hover */
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  transform: scale(1.4); /* Scale the thumb on hover */
+}
+
+.monitor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.monitor-card {
+  transition: all var(--transition-default) ease;
+  background-color: var(--base);
+  border-radius: var(--border-radius); 
+  padding: 0.625rem; 
+  margin: 0.625rem; 
+  width: 18.75rem; 
+  box-shadow: var(--material-shadow0) var(--shadow-medium);
+}
+
+.monitor-card a {
+  text-decoration: none;
+  color: var(--pink);
+}
+
+.monitor-card a:hover {
+  text-decoration: underline;
+}
+
+.monitor-card p {
+  font-size: 0.9rem;
+  margin: 0.3125rem 0; 
+  color: var(--subtext0);
+}
+
+.monitor-card h2 {
+  color: var(--text);
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  transition: color var(--transition-default) ease;
+    margin: 0 1rem;
+}
+.monitor-card h2::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 50%;
+  bottom: -3px;
+  transform: translateX(-50%);
+  background-color: var(--subtext0);
+  transition: width var(--transition-default) ease,
+    background-color var(--transition-default) ease;
+}
+.monitor-card h2:hover::after {
+  width: 70%;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.dropdown-container label {
+  margin-bottom: 3px;
+}
+
+.dropdown-container select {
+  width: 200px;
+  padding: .5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--surface0);
+  background-color: var(--surface0);
+  color: var(--text);
+  transition: all var(--transition-default) ease;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dropdown-container select:hover {
+  border-color: var(--pink);
+}
+
+.dropdown-container select:focus {
+  outline: none;
+  box-shadow: var(--material-shadow0) var(--shadow-medium);
+}
+
+.dropdown-container option {
+  padding: 10px;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Samsung Odyssey G4",
+    "link": "https://pcpartpicker.com/product/tcwypg/samsung-odyssey-g4-270-1920x1080-240-hz-monitor-ls27bg402enxgo",
+    "panel_type": "IPS",
+    "response_time": "1ms (GtG)",
+    "brightness": "400 cd/m²",
+    "refresh_rate": "240Hz",
+    "adaptive_sync": ["FreeSync Premium", "G-Sync Compatible"],
+    "extras": ["HDR10 support", "VESA mountable", "no built-in speakers"]
+  },
+  {
+    "name": "LG 27GP750-B",
+    "link": "https://pcpartpicker.com/product/m9gFf7/lg-27gp750-b-270-1920x1080-240-hz-monitor-27gp750-b",
+    "panel_type": "IPS",
+    "response_time": "1ms",
+    "brightness": "320 cd/m²",
+    "refresh_rate": "240Hz",
+    "adaptive_sync": ["FreeSync", "G-Sync Compatible"],
+    "extras": ["Excellent motion handling", "no HDR"]
+  },
+  {
+    "name": "Asus TUF Gaming VG328H1B",
+    "link": "https://pcpartpicker.com/product/chxbt6/asus-tuf-gaming-vg328h1b-315-1920x1080-165-hz-monitor-90lm0681-b011b0",
+    "panel_type": "VA",
+    "response_time": "1ms (MPRT)",
+    "brightness": "250 cd/m²",
+    "refresh_rate": "165Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["High contrast", "good for dark rooms"]
+  },
+  {
+    "name": "Sceptre C325B-185RD",
+    "link": "https://pcpartpicker.com/product/ncRgXL/sceptre-c325b-185rd-315-1920x1080-185-hz-monitor-c325b-185rd",
+    "panel_type": "VA",
+    "response_time": "3ms",
+    "brightness": "250 cd/m²",
+    "refresh_rate": "185Hz",
+    "adaptive_sync": ["FreeSync"],
+    "extras": ["Good contrast", "large screen", "slower response time"]
+  },
+  {
+    "name": "AOC C32G2ZE",
+    "link": "https://pcpartpicker.com/product/zGkWGX/aoc-c32g2zebk-315-1920x1080-240-hz-monitor-c32g2zebk",
+    "panel_type": "VA",
+    "response_time": "1ms (MPRT)",
+    "brightness": "300 cd/m²",
+    "refresh_rate": "240Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["Large screen", "decent for fast-paced gaming"]
+  },
+  {
+    "name": "MSI G274F",
+    "link": "https://pcpartpicker.com/product/HjJp99/msi-g274f-270-1920-x-1080-180-hz-monitor-g274f",
+    "panel_type": "IPS",
+    "response_time": "1ms",
+    "brightness": "300 cd/m²",
+    "refresh_rate": "180Hz",
+    "adaptive_sync": ["FreeSync"],
+    "extras": ["Good for competitive gaming"]
+  },
+  {
+    "name": "Acer Nitro XZ270 X2bmiiphx",
+    "link": "https://www.amazon.com/FreeSync-Speakers-ErgoStand-Compliant-X2bmiiphx/dp/B0CZ23DN8N",
+    "panel_type": "VA",
+    "response_time": "1ms",
+    "brightness": "250 cd/m²",
+    "refresh_rate": "240Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["Curved, HDR10, built-in speakers, VESA mountable"]
+  },
+  {
+    "name": "AOC C27G2Z",
+    "link": "https://www.amazon.com/AOC-C27G2Z-Frameless-Ultra-Fast-Adjustable/dp/B088LG2BSW",
+    "panel_type": "VA",
+    "response_time": "0.5ms (MPRT)",
+    "brightness": "300 cd/m²",
+    "refresh_rate": "240Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["Curved, frameless, height adjustable"]
+  },
+  {
+    "name": "ASUS VG279QL1A",
+    "link": "https://www.amazon.com/ASUS-VG279QL1A-Supports-DisplayHDR-DisplayPort/dp/B08CYC6P3V",
+    "panel_type": "IPS",
+    "response_time": "1ms (MPRT)",
+    "brightness": "350 cd/m²",
+    "refresh_rate": "165Hz",
+    "adaptive_sync": ["FreeSync", "G-Sync Compatible"],
+    "extras": ["DisplayHDR 400, ergonomic stand"]
+  },
+  {
+    "name": "Viotek GNV27CB",
+    "link": "https://www.amazon.com/Viotek-GNV27CB-27-Inch-Monitor-1920x1080p/dp/B0B4PR6BJJ",
+    "panel_type": "VA",
+    "response_time": "1ms (MPRT)",
+    "brightness": "250 cd/m²",
+    "refresh_rate": "165Hz",
+    "adaptive_sync": ["FreeSync"],
+    "extras": ["Curved, anti-glare, built-in speakers"]
+  },
+  {
+    "name": "Acer Nitro XZ270",
+    "link": "https://www.amazon.com/acer-Monitor-FreeSync-Mountable-X2bmiipx/dp/B0D81NTZYR",
+    "panel_type": "VA",
+    "response_time": "1ms",
+    "brightness": "250 cd/m²",
+    "refresh_rate": "165Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["Curved, HDR10, built-in speakers"]
+  },
+  {
+    "name": "KTC Curved Monitor",
+    "link": "https://www.amazon.com/KTC-Curved-Monitor-Freesync-Adjustable/dp/B0D5QP2LXS",
+    "panel_type": "VA",
+    "response_time": "1ms",
+    "brightness": "300 cd/m²",
+    "refresh_rate": "165Hz",
+    "adaptive_sync": ["FreeSync Premium"],
+    "extras": ["Curved, ergonomic stand, VESA mountable"]
+  }
+]
